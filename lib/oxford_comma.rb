@@ -17,6 +17,9 @@ def oxford_comma(array)
     str1.concat(str2)
     
     else
+      last_arr = array[array.length-1]
+      last_arr.insert(0, " and ")
+      array.
       
   end
 end
