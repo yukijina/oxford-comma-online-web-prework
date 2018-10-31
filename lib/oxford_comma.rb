@@ -17,7 +17,8 @@ def oxford_comma(array)
     str1.concat(str2)
     
     else
-     
+     array[array.length-1].prepend(" and ")
+     array.join(", ")
      
      
       # No comma before the last element
