@@ -19,8 +19,8 @@ def oxford_comma(array)
     else
       last_el = array[array.length-1]
       last_el.insert(0, " and ")
-
       last_el = array.pop
+
       string = array.join(", ")
       string.concat(last_el)
   end
